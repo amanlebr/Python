@@ -18,10 +18,6 @@ sum(size)/128.0 AS File_Size_MB,
 sum(CAST(FILEPROPERTY(name, ''SpaceUsed'') AS INT))/128.0 as Space_Used_MB, 
 SUM( size)/128.0 - sum(CAST(FILEPROPERTY(name,''SpaceUsed'') AS INT))/128.0 AS Free_Space_MB  
 from sys.database_files  where type=0 group by type' 
-  
-  
-  
-  
-  
+ 
 go 
   
