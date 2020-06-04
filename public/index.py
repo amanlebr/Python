@@ -26,8 +26,7 @@ else:
 	print("Dia invalido") 
 #teste de edição 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
 telefones = {"nomes1" : "+ 55 21 97993-9083"}
@@ -63,9 +62,9 @@ while True:
 """ 
 teste de edição, resolvendo conflitos
 """
->>>>>>> afca8390fc9eedfc8eefc63f4e6c1c27b38d4b8e
-=======
+
 """ 
 teste de edição, resolvendo conflitos
 """
->>>>>>> afca8390fc9eedfc8eefc63f4e6c1c27b38d4b8e
+
+faonsadnfaosdnosanfoasndfaosnfodsnfosdn
