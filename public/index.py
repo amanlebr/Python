@@ -25,3 +25,35 @@ elif dia == 7:
 else: 
 	print("Dia invalido") 
 #teste de edição 
+
+
+
+telefones = {"nomes1" : "+ 55 21 97993-9083"}
+telefones["Fulano"]
+
+telefones["nomes1"]
+
+
+
+try: 
+	print('O telefone e: ')
+	print(telefones['Fulano'])
+except KeyError:
+	print('Não encontrado')
+
+
+
+
+try: 
+	print('O telefone e: ')
+	print(telefones['nomes1'])
+except KeyError:
+	print('Não encontrado')
+
+
+while True:
+	try:
+		x = int(input('Por favor, informe um numero: '))
+		break
+	except ValueError:
+		print('Oops! Nao foi um número valido. Tente Novamente ...')
