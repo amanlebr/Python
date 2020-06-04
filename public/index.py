@@ -25,3 +25,7 @@ elif dia == 7:
 else: 
 	print("Dia invalido") 
 #teste de edição 
+
+""" 
+teste de edição, resolvendo conflitos
+"""
